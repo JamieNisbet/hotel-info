@@ -5,11 +5,11 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const collections = [
     {
       id: 1,
-      name: 'Earthen Bottle',
+      name: 'Golf Château de la Tournette',
       href: '#',
-      price: '$48',
+      infos: 'Stay at Pierpont & Play at La Tournette! Reduced Green Fee for Pierpont Play & Stay Packs! For more information, ask the hotel Reception. +32 (0)67 894 266 | info@tournette.com www.tournette.com . Chemin de Baudemont 21 B-1400 Nivelles, Belgium.',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-      imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+      imageAlt: 'Stay-at-Pierpont-and-Play-at-La-Tournette.',
     },
     {
       id: 2,
