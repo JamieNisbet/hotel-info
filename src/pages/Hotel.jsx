@@ -7,8 +7,8 @@ const collections = [
       id: 1,
       name: 'Opening Hours',
       href: '#',
-      Infos: 'The Reception is open between 08:00 and 18:00 during the high season and 09.00 and 17.00 during the low season. Outside these hours, please address the staff in the Bar & Restaurant. Parking, The Club’s parking is free of charge. Mail, You can leave your outgoing mail in the ‘Mailbox’ at the Reception. Fax, If you would like to send a fax, please ask the Reception. Where to pay? Room (incl. breakfast), Shop and Golf: please pay at the Reception.If you check out before the Reception is open, please pay the day before. Bar & Restaurant: please pay at the Bar.',
-      imageSrc: '[https://pierpont.be/userfiles/websites/196/Pierpont%20-%20Clubhouse%20%26%20Hotel%20-%20Interior%20Court.JPG](https://pierpont.be/userfiles/websites/196/Pierpont%20-%20Clubhouse%20%26%20Hotel%20-%20Interior%20Court.JPG)',
+      Infos: 'The Reception is open between 08:00 and 18:00 during the high season and 09.00 and 17.00 during the low season. Outside these hours, please address the staff in the Bar & Restaurant. Parking, The Club’s parking is free of charge. Mail, You can leave your outgoing mail in the Mailbox at the Reception. Fax, If you would like to send a fax, please ask the Reception. Where to pay? Room (incl. breakfast), Shop and Golf: please pay at the Reception.If you check out before the Reception is open, please pay the day before. Bar & Restaurant: please pay at the Bar.',
+      imageSrc: '/img/reception.png',
       imageAlt: 'reception',
       },
       {
@@ -16,7 +16,7 @@ const collections = [
       name: 'Rooms',
       href: '#',
       Infos: 'All Rooms and Clubhouse facilities are non-smoking areas.Please keep windows closed when it’s raining.If you encounter any problem during your stay or if you find any room objects broken or damaged, please inform the Reception. In-room amenities, Tea and coffee are available free of charge.',
-      imageSrc: '[https://www.dreamstime.com/royalty-free-stock-images-voip-phone-business-inside-hotel-room-image39335199](https://www.dreamstime.com/royalty-free-stock-images-voip-phone-business-inside-hotel-room-image39335199)',
+      imageSrc: '/img/In-room-amenities.png',
       imageAlt: 'In-room-amenities',
       },
       {
@@ -24,7 +24,7 @@ const collections = [
       name: 'Room Plan',
       href: '#',
       Infos: 'The hotel rooms are located in the building on the left of the reception entrance, except for the rooms 20 to 28 which are located in the main building. There are four entrances, accessible from the courtyard and the floor',
-      imageSrc: '[https://pierpont.be/userfiles/websites/196/Pierpont%20-%20Twin%20Room%20Standard.JPG](https://pierpont.be/userfiles/websites/196/Pierpont%20-%20Twin%20Room%20Standard.JPG)',
+      imageSrc: '/img/hotel-room-Pierpont.png',
       imageAlt: 'hotel-room-Pierpont.',
       },
       {
@@ -32,7 +32,7 @@ const collections = [
       name: 'Check out',
       href: '#',
       Infos: 'Please check-out before 10:30. If you plan to leave later in the day, we can provide you with a place to store your luggage and golf clubs.If you are playing golf on your final day you must check-out before you tee- off. You are welcome to use the Club’s changing rooms after your round of golf to shower and change. Please bring the room key back to the Reception at the end of your stay.',
-      imageSrc: '[https://thumbs.dreamstime.com/b/hotel-check-out-vintage-bell-message-wooden-desk-lobby-service-90885601.jpg](https://thumbs.dreamstime.com/b/hotel-check-out-vintage-bell-message-wooden-desk-lobby-service-90885601.jpg)',
+      imageSrc: '/img/Check-out.png',
       imageAlt: 'Check-out.',
       },
       {
@@ -40,8 +40,8 @@ const collections = [
       name: 'Emergency numbers',
       href: '#',
       Infos: 'Emergency general 112, Fire 100 Police 101 Ambulance 100 Office (during closing hours) 0032 (0)474 98 06 63, Do not hesitate to contact our staff if you have a request or any question. We wish you a pleasant stay in our hotel!',
-      imageSrc: '[https://www.dreamstime.com/royalty-free-stock-images-voip-phone-business-inside-hotel-room-image39335199](https://www.dreamstime.com/royalty-free-stock-images-voip-phone-business-inside-hotel-room-image39335199)',
-      imageAlt: 'Emergency numbers.',
+      imageSrc: '/img/Emergency-numbers.png',
+      imageAlt: 'Emergency-numbers.',
       },
 ]
   
