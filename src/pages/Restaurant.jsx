@@ -5,36 +5,29 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const collections = [
     {
       id: 1,
-      name: 'Earthen Bottle',
+      name: 'Breakfast',
       href: '#',
-      price: '$48',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-      imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+      price: 'Breakfast is served between 8:00 and 10:00. If you would like to have breakfast before 8:00, please ask at the Restaurant. During low season breakfast is served from 9:00. If you have an early start, it is also possible to have a Breakfast Pack delivered to your room. Please order this at the restaurant the day before.',
+      imageSrc: '/img/Breakfast.png',
+      imageAlt: 'Breakfast.',
     },
     {
       id: 2,
-      name: 'Nomad Tumbler',
+      name: 'Kitchen Opening Hours',
       href: '#',
-      price: '$35',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-      imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+      infos: 'High season (Apr.-Oct.) Monday: 12.00 – 21.00 Tuesday-Sunday: 12.00 – 21.30 Low season ( Nov.-Mar.) Tuesday-Friday: 12.00-17.00 Weekend: 12.00-18.00. If you would like to dine later, please ask at the Restaurant in advance. We recommend that you make your dinner reservations at the Restaurant on arrival and for the duration of your stay, especially for groups.',
+      imageSrc: '/img/Kitchen-Opening-Hours.png',
+      imageAlt: 'Kitchen-Opening-Hours.',
     },
     {
       id: 3,
-      name: 'Focus Paper Refill',
+      name: 'Bar',
       href: '#',
-      price: '$89',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
-      imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+      infos: 'open from 09.00am | tel.: 0032 (0)71 88 08 32',
+      imageSrc: '/img/bar.png',
+      imageAlt: 'bar.',
     },
-    {
-      id: 4,
-      name: 'Machined Mechanical Pencil',
-      href: '#',
-      price: '$35',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-      imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-    },
+    
     // More products...
 ]
   
