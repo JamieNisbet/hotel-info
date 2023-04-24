@@ -24,7 +24,7 @@ const collections = [
       name: 'Golf & Country Club Hoenshuis',
       href: '#',
       infos: 'Also visit G&CC Hoenshuis, near Maastricht! +31 (0) 45 575 330 | info@hoenshuis.nl www.hoenshuis.nl Hoensweg 176367 GN Voerendaal, The Netherlands. Contact the Club for Hotel accomodation!',
-      imageSrc:'Golf-and-Country-Club-Hoenshuis/img/exemple.jpg'
+      imageSrc:'Golf-and-Country-Club-Hoenshuis/img/exemple.jpg',
       imageAlt: 'Golf-and-Country-Club-Hoenshuis.',
     },
    
