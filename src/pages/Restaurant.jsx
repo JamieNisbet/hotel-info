@@ -7,7 +7,7 @@ const collections = [
       id: 1,
       name: 'Breakfast',
       href: '#',
-      price: 'Breakfast is served between 8:00 and 10:00. If you would like to have breakfast before 8:00, please ask at the Restaurant. During low season breakfast is served from 9:00. If you have an early start, it is also possible to have a Breakfast Pack delivered to your room. Please order this at the restaurant the day before.',
+      infos: 'Breakfast is served between 8:00 and 10:00. If you would like to have breakfast before 8:00, please ask at the Restaurant. During low season breakfast is served from 9:00. If you have an early start, it is also possible to have a Breakfast Pack delivered to your room. Please order this at the restaurant the day before.',
       imageSrc: '/img/Breakfast.png',
       imageAlt: 'Breakfast.',
     },
