@@ -8,7 +8,7 @@ const collections = [
       name: 'Golf Château de la Tournette',
       href: '#',
       infos: 'Stay at Pierpont & Play at La Tournette! Reduced Green Fee for Pierpont Play & Stay Packs! /n For more information, ask the hotel Reception. /n +32 (0)67 894 266 | info@tournette.com www.tournette.com . Chemin de Baudemont 21 B-1400 Nivelles, Belgium.',
-      imageSrc: '/img/Stay-at-Pierpont-and-Play-at-La-Tournette.jpg',
+      imageSrc: '/img/Stay-at-Pierpont-and-Play-at-La-Tournette.png',
       imageAlt: 'Stay-at-Pierpont-and-Play-at-La-Tournette.',
     },
     {
@@ -16,7 +16,7 @@ const collections = [
       name: 'Golf Club Enghien',
       href: '#',
       infos: 'Stay at Pierpont & Play at Enghien! Reduced Green Fee for Pierpont Play & Stay Packs! For more information, ask the hotel Reception. /n +32 (0)2 397 03 10 | info@golfclubenghien.com www.golfclubenghien.com /n Chaussee Brunehault - Parc Chateau 4 B-7850 Petit-Enghien, Belgium.',
-      imageSrc: '/img/Golf-Club-Enghien.jpg',
+      imageSrc: '/img/Golf-Club-Enghien.png',
       imageAlt: 'Golf-Club-Enghien.',
     },
     {
@@ -24,7 +24,7 @@ const collections = [
       name: 'Golf & Country Club Hoenshuis',
       href: '#',
       infos: 'Also visit G&CC Hoenshuis, near Maastricht! /n +31 (0) 45 575 330 | info@hoenshuis.nl www.hoenshuis.nl /n Hoensweg 176367 GN Voerendaal, The Netherlands. /n Contact the Club for Hotel accomodation!',
-      imageSrc:'/img/Golf-and-Country-Club-Hoenshuis.jpg',
+      imageSrc:'/img/Golf-and-Country-Club-Hoenshuis.png',
       imageAlt: 'Golf-and-Country-Club-Hoenshuis.',
     },
    
