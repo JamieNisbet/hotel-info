@@ -8,33 +8,26 @@ const collections = [
       name: 'Golf Château de la Tournette',
       href: '#',
       infos: 'Stay at Pierpont & Play at La Tournette! Reduced Green Fee for Pierpont Play & Stay Packs! For more information, ask the hotel Reception. +32 (0)67 894 266 | info@tournette.com www.tournette.com . Chemin de Baudemont 21 B-1400 Nivelles, Belgium.',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
+      imageSrc: 'Stay-at-Pierpont-and-Play-at-La-Tournette/img/exemple.jpg',
       imageAlt: 'Stay-at-Pierpont-and-Play-at-La-Tournette.',
     },
     {
       id: 2,
-      name: 'Nomad Tumbler',
+      name: 'Golf Club Enghien',
       href: '#',
-      price: '$35',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-      imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+      infos: 'Stay at Pierpont & Play at Enghien! Reduced Green Fee for Pierpont Play & Stay Packs! For more information, ask the hotel Reception. +32 (0)2 397 03 10 | info@golfclubenghien.com www.golfclubenghien.com Chaussee Brunehault - Parc Chateau 4 B-7850 Petit-Enghien, Belgium.',
+      imageSrc: 'Golf-Club-Enghien/img/exemple.jpg',
+      imageAlt: 'Golf-Club-Enghien.',
     },
     {
       id: 3,
-      name: 'Focus Paper Refill',
+      name: 'Golf & Country Club Hoenshuis',
       href: '#',
-      price: '$89',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
-      imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+      infos: 'Also visit G&CC Hoenshuis, near Maastricht! +31 (0) 45 575 330 | info@hoenshuis.nl www.hoenshuis.nl Hoensweg 176367 GN Voerendaal, The Netherlands. Contact the Club for Hotel accomodation!',
+      imageSrc:'Golf-and-Country-Club-Hoenshuis/img/exemple.jpg'
+      imageAlt: 'Golf-and-Country-Club-Hoenshuis.',
     },
-    {
-      id: 4,
-      name: 'Machined Mechanical Pencil',
-      href: '#',
-      price: '$35',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-      imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-    },
+   
     // More products...
 ]
   
