@@ -2,25 +2,25 @@ export const menuSquares = [
     {
       id: 1,
       link: '/hotel-info',
-      image: '/hotel.jpg',
+      image: '/img/hotel.jpg',
       title: 'Hotel Information',
     },
     {
       id: 2,
       link: '/golf',
-      image: '/golf.jpg',
+      image: '/img/golf.jpg',
       title: 'Golf',
     },
     {
       id: 3,
       link: '/local-activities',
-      image: '/activities.jpg',
+      image: '/img/activities.jpg',
       title: 'Activities',
     },
     {
         id: 4,
         link: '/feedback',
-        image: '/feedback.jpg',
+        image: '/img/feedback.jpg',
         title: 'Feedback',
       },
   ];
