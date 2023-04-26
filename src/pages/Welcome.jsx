@@ -31,10 +31,10 @@ export default function Welcome() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            BIENVENUE • WELKOM • WELCOME
+            Golf & Hotel de Pierpont
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-            Golf & Hotel de Pierpont
+            BIENVENUE • WELKOM • WELCOME
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
