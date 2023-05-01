@@ -39,7 +39,7 @@ const collections = [
 ]
   
 export default function Golf() {
-  const phoneNumber = '0032471880830';
+  const phoneNumber = '071880830';
 
   return (
     <div className="bg-white">
