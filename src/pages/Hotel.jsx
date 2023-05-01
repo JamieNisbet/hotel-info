@@ -60,6 +60,7 @@ const collections = [
 ]
   
 export default function Hotel() {
+  const phoneNumber = '071880830';
 
   return (
     <div className="bg-white">
@@ -78,7 +79,11 @@ export default function Hotel() {
         </div>
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 className="sr-only">Hotel</h2>
-  
+          <a href={`tel:${phoneNumber}`}>
+          <svg fill="none" className='h-10 w-10 rounded-lg m-auto hover:text-white hover:scale-125 hover:cursor-pointer' stroke="currentColor" strokeWidth={1.5} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+</svg>
+    </a>
           <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 mt-10">
             {collections.map((product) => (
               <a key={product.id} href={product.imageSrc} className="group">
