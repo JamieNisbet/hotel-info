@@ -3,44 +3,58 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const collections = [
+  {
+    id: 4,
+    name: 'Rooms',
+    href: '#',
+    infos: 'All Rooms and Clubhouse facilities are non-smoking areas.Please keep windows closed when it’s raining.If you encounter any problem during your stay or if you find any room objects broken or damaged, please inform the Reception. In-room amenities, Tea and coffee are available free of charge.',
+    imageSrc: '/img/In-room-amenities.png',
+    imageAlt: 'In-room-amenities',
+  },
+  {
+    id: 5,
+    name: 'Room Plan',
+    infos: 'The hotel rooms are located in the building on the left of the reception entrance, except for the rooms 20 to 28 which are located in the main building. There are four entrances, accessible from the courtyard',
+    imageSrc: '/img/hotel-room-Pierpont.png',
+    imageAlt: 'hotel-room-Pierpont.',
+    },
     {
       id: 1,
-      name: 'Opening Hours',
-      href: '#',
-      infos: 'The Reception is open between 08:00 and 18:00 during the high season and 09.00 and 17.00 during the low season. Outside these hours, please address the staff in the Bar & Restaurant. Parking, The Club’s parking is free of charge. Mail, You can leave your outgoing mail in the Mailbox at the Reception. Fax, If you would like to send a fax, please ask the Reception. Where to pay? Room (incl. breakfast), Shop and Golf: please pay at the Reception.If you check out before the Reception is open, please pay the day before. Bar & Restaurant: please pay at the Bar.',
+      name: 'Reception & Parking',
+      infos: 'The Reception is open between 08:00 and 18:00. Outside these hours, please address the staff in the Bar & Restaurant. The Club’s parking is free of charge.',
       imageSrc: '/img/reception.png',
-      imageAlt: 'reception',
-      },
-      {
+    imageAlt: 'reception',
+  },
+  {
+    id: 3,
+    name: 'How and Where to Pay?',
+    infos: 'Your room (incl. breakfast, shop and golf: please pay at the Reception.If you check out before the Reception is open, please pay the day before. Bar & Restaurant: please pay at the Bar.',
+    imageSrc: '/img/reception.png',
+    imageAlt: 'reception',
+  },
+    
+  {
+    id: 6,
+    name: 'Check out',
+    infos: 'Please check-out before 10:30. If you plan to leave later in the day, we can provide you with a place to store your luggage and golf clubs.If you are playing golf on your final day you must check-out before you tee-off. You are welcome to use the Club’s changing rooms after your round of golf to shower and change. Please bring the room key back to the Reception at the end of your stay.',
+    imageSrc: '/img/Check-out.png',
+    imageAlt: 'Check-out.',
+    },
+  {
       id: 2,
-      name: 'Rooms',
-      href: '#',
-      infos: 'All Rooms and Clubhouse facilities are non-smoking areas.Please keep windows closed when it’s raining.If you encounter any problem during your stay or if you find any room objects broken or damaged, please inform the Reception. In-room amenities, Tea and coffee are available free of charge.',
-      imageSrc: '/img/In-room-amenities.png',
-      imageAlt: 'In-room-amenities',
-      },
+      name: 'Office',
+      infos: 'You can leave your outgoing mail in the Mailbox at the Reception. If you would like to send a fax, please ask the Reception.',
+      imageSrc: '/img/office.jpg',
+      imageAlt: 'reception',
+  },
+
+
+
       {
-      id: 3,
-      name: 'Room Plan',
-      href: '#',
-      infos: 'The hotel rooms are located in the building on the left of the reception entrance, except for the rooms 20 to 28 which are located in the main building. There are four entrances, accessible from the courtyard and the floor',
-      imageSrc: '/img/hotel-room-Pierpont.png',
-      imageAlt: 'hotel-room-Pierpont.',
-      },
-      {
-      id: 4,
-      name: 'Check out',
-      href: '#',
-      infos: 'Please check-out before 10:30. If you plan to leave later in the day, we can provide you with a place to store your luggage and golf clubs.If you are playing golf on your final day you must check-out before you tee- off. You are welcome to use the Club’s changing rooms after your round of golf to shower and change. Please bring the room key back to the Reception at the end of your stay.',
-      imageSrc: '/img/Check-out.png',
-      imageAlt: 'Check-out.',
-      },
-      {
-      id: 5,
+      id: 7,
       name: 'Emergency numbers',
-      href: '#',
-      infos: 'Emergency general 112, Fire 100 Police 101 Ambulance 100 Office (during closing hours) 0032 (0)474 98 06 63, Do not hesitate to contact our staff if you have a request or any question. We wish you a pleasant stay in our hotel!',
-      imageSrc: '/img/Emergency-numbers.png',
+        infos: "Emergency general 112\nFire 100\nPolice 101\nAmbulance 100\nOffice +32 471 88 08 38, \nDo not hesitate to contact our staff if you have a request or any question. We wish you a pleasant stay in our hotel!",
+      imageSrc: '/img/emergency_numbers.jpg',
       imageAlt: 'Emergency-numbers.',
       },
 ]
@@ -67,16 +81,16 @@ export default function Hotel() {
   
           <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 mt-10">
             {collections.map((product) => (
-              <a key={product.id} href={product.href} className="group">
+              <a key={product.id} href={product.imageSrc} className="group">
                 <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
                   <img
                     src={product.imageSrc}
                     alt={product.imageAlt}
-                    className="h-full w-full object-cover object-center group-hover:opacity-75"
+                    className="h-48 w-full object-cover object-center group-hover:opacity-75"
                   />
                 </div>
                 <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
-                <p className="mt-1 text-lg font-medium text-gray-900">{product.infos}</p>
+                <p className="mt-1 text-md font-medium text-gray-900" style={{whiteSpace: "pre-wrap"}}>{product.infos}</p>
               </a>
             ))}
           </div>
