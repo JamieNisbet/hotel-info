@@ -44,7 +44,7 @@ export default function Example() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="https://forms.office.com/e/nhJnU0pdce" className="text-sm font-semibold leading-6 bg-white rounded-xl p-2 text-gray-900">
+            <a href="https://forms.office.com/e/nhJnU0pdce" className="text-sm font-semibold leading-6 hover:underline bg-white rounded-xl p-2 text-gray-900">
               We want to hear from you <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -86,7 +86,7 @@ export default function Example() {
                 <div className="py-6">
                   <a
                     href="https://forms.office.com/e/nhJnU0pdce"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 hover:underline"
                   >
                     We want to hear from you!
                   </a>

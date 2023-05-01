@@ -2,10 +2,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import "./App.css";
 import Header from "./templates/Header";
 import Welcome from "./pages/Welcome";
-import Hotel from "./pages/Hotel";
-import Golf from "./pages/Golf";
-import Restaurant from "./pages/Restaurant";
-import Activities from "./pages/Activities";
+import Category from "./pages/Category";
+
+import { golf, activities, hotel, restaurant, tel } from './data';
 
 function App() {
   return (
@@ -14,10 +13,10 @@ function App() {
         <Header />
     <Routes>
       <Route path="/" element={<Welcome />} />
-      <Route path="/hotel" element={<Hotel />} />
-      <Route path="/golf" element={<Golf/>} />
-      <Route path="/restaurant" element={<Restaurant />} />
-      <Route path="/activities" element={<Activities />} />
+      <Route path="/hotel" element={<Category collection={hotel} tel={tel.office} />} />
+      <Route path="/golf" element={<Category collection={golf} tel={tel.office}/>} />
+      <Route path="/restaurant" element={<Category collection={restaurant} tel={tel.restaurant}/>} />
+      <Route path="/activities" element={<Category collection={activities} tel={tel.office} />} />
     </Routes>
   </BrowserRouter>
     </>
